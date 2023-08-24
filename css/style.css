@@ -1,0 +1,170 @@
+body {
+    background: #f0f0f0;
+}
+
+:root {
+    --red: #e6563b;
+    --green: #7cb06c;
+    --yellow: #EB9D3A;
+    --blue: #00aba9;
+}
+
+a {
+    color: black;
+}
+
+@media screen and (min-width:768px) {
+    .box .card-img-top {
+        height: 20vw;
+    }
+}
+
+#twitter {
+    color: rgb(28, 141, 240);
+}
+
+*p {
+    font-family: "Abel Regular", serif;
+}
+
+*h1, h2, h3, h4, h5 {
+    font-family: "Anton Regular", serif;
+    font-weight: bold;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin: 1vw;
+}
+
+.circle h6 {
+    margin: 0;
+}
+
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
+
+.small-circles {
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-family: 'Anton', sans-serif;
+    margin-left: 1em;
+}
+
+.small-circles span {
+    position: relative;
+    top: 1px;
+}
+
+#twitter-card {
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.card-body {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.card {
+    border: none;
+    background-color: #f0f0f0;
+}
+
+img {
+    border: 5px solid #E6E6E6;
+}
+
+#img-logo {
+    border: none;
+    height: 105px;
+    width: 105px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.card-text {
+    margin: auto;
+    text-align:center;
+}
+
+#selected-work {
+    padding: 0;
+}
+
+#the-last {
+    padding-left: 25px;
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brand-name {
+    font-size: 1.75em;
+    font-family: Abel, serif;
+}
+
+nav a {
+    font-size: .75em;
+    color: black;
+}
+
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+h1, h2, h4, h5{
+    font-family: Anton, serif;
+}
+
+p{
+    font-family: Abel, serif
+}
+
+.nav-link {
+    color: lightslategray;
+    padding: 0;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (min-width: 992px) {
+    .sub-title {text-align: left;}
+    hr {width: 100%;}
+
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
+}
